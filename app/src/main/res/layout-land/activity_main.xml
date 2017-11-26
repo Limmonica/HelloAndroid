@@ -11,7 +11,7 @@
         android:id="@+id/udacity-image"
         android:layout_width="match_parent"
         android:layout_height="@dimen/empty_height"
-        android:layout_weight="2"
+        android:layout_weight="3"
         android:contentDescription="@string/business_name"
         android:scaleType="centerCrop"
         android:src="@drawable/udacity" />
@@ -19,13 +19,13 @@
     <!-- Header: Title -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/name_height"
+        android:layout_height="@dimen/name_height_land"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/roboto_bold"
         android:gravity="center"
         android:text="@string/business_name"
         android:textAllCaps="true"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
         android:textColor="@android:color/white"
         android:textStyle="bold"
         tools:ignore="UnusedAttribute" />
@@ -36,7 +36,7 @@
         android:layout_height="@dimen/empty_height"
         android:layout_gravity="center"
         android:layout_weight="3"
-        android:paddingTop="@dimen/padding">
+        android:paddingTop="@dimen/padding_land">
 
         <!-- Body: Phone Number -->
         <TextView
@@ -45,13 +45,13 @@
             android:layout_height="wrap_content"
             android:autoLink="phone"
             android:drawableLeft="@drawable/ic_phone_black_24dp"
-            android:drawablePadding="@dimen/padding"
+            android:drawablePadding="@dimen/padding_land"
             android:drawableStart="@drawable/ic_phone_black_24dp"
             android:drawableTint="@color/colorPrimaryDark"
             android:fontFamily="@font/roboto"
-            android:paddingBottom="@dimen/padding"
+            android:paddingBottom="@dimen/padding_land"
             android:text="@string/phone"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
             android:textColor="@color/textColor"
             tools:ignore="UnusedAttribute" />
 
@@ -68,13 +68,13 @@
             android:layout_centerHorizontal="true"
             android:autoLink="map"
             android:drawableLeft="@drawable/ic_place_black_24dp"
-            android:drawablePadding="@dimen/padding"
+            android:drawablePadding="@dimen/padding_land"
             android:drawableStart="@drawable/ic_place_black_24dp"
             android:drawableTint="@color/colorPrimaryDark"
             android:fontFamily="@font/roboto"
-            android:paddingBottom="@dimen/padding"
+            android:paddingBottom="@dimen/padding_land"
             android:text="@string/address"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
             android:textColor="@color/textColor"
             tools:ignore="UnusedAttribute" />
 
@@ -87,12 +87,12 @@
             android:layout_centerHorizontal="true"
             android:autoLink="web"
             android:drawableLeft="@drawable/ic_language_black_24dp"
-            android:drawablePadding="@dimen/padding"
+            android:drawablePadding="@dimen/padding_land"
             android:drawableStart="@drawable/ic_language_black_24dp"
             android:drawableTint="@color/colorPrimaryDark"
             android:fontFamily="@font/roboto"
             android:text="@string/website"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
             android:textStyle="bold"
             tools:ignore="UnusedAttribute" />
 

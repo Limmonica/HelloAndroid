@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="padding_land">4dp</dimen>
+    <dimen name="name_height">50dp</dimen>
+    <dimen name="name_height_land">40dp</dimen>
+    <dimen name="empty_height">0dp</dimen>
+
+</resources>
