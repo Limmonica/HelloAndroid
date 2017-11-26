@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/business_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/udacity" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dp"
+            android:text="@string/business_name"
+            android:textAllCaps="true"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            tools:ignore="UnusedAttribute" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_phone_black_24dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:paddingBottom="8dp"
+            android:text="@string/phone"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            tools:ignore="UnusedAttribute" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/website"
+            android:layout_alignLeft="@+id/website"
+            android:layout_alignRight="@+id/website"
+            android:layout_alignStart="@+id/website"
+            android:layout_below="@+id/phone"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/ic_place_black_24dp"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_place_black_24dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:paddingBottom="8dp"
+            android:text="@string/address"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            tools:ignore="UnusedAttribute" />
+
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address"
+            android:layout_centerHorizontal="true"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/ic_language_black_24dp"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_language_black_24dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:text="@string/website"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textStyle="bold"
+            tools:ignore="UnusedAttribute" />
+
+    </RelativeLayout>
+
+</LinearLayout>
