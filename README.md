@@ -1,3 +1,5 @@
+# Udacity Project no. 1:
+
 # HelloAndroid
 
 ## Description: 
