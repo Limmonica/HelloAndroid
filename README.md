@@ -1,6 +1,6 @@
-# Udacity Project no. 1:
+# Udacity Project no. 1: User Interface
 
-## HelloAndroid
+## HelloAndroid App
 
 ## Description: 
 Design and build a single-screen app that displays information about Udacity, along with an image.
