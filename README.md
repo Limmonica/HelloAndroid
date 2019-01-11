@@ -1,4 +1,4 @@
-# Udacity Project no. 1: User Interface
+# User Interface
 
 ## HelloAndroid App
 
